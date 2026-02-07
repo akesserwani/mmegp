@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Modern Middle East Genomics Project</title>
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,500&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,500&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+        <!--Bootstrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <!--Tailwind CDN-->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+
+    </head>
+
+    <body>
+
+
+        <main>
+        <!-- Page Container -->
+        <div class="min-h-screen flex flex-col">
+                <!--Landing-->
+                <div class="relative w-full h-screen overflow-hidden">
+                    <!-- Background Images -->
+                    <div class="absolute inset-0 flex">
+                        <img src="img/baalbeck.jpg" class="w-1/2 h-full object-cover">
+                        <img src="img/genetic_info.jpg" class="w-1/2 h-full object-cover">
+                    </div>
+
+                    <!-- White Overlay -->
+                    <div class="absolute inset-0 bg-white/80">
+                        <!--Logo top right-->
+                        <img src="img/emory_logo.png" class="w-48 absolute right-10">
+                    </div>
+                        <!-- Text Content -->
+                        <div class="relative z-10 flex flex-col gap-8 items-center justify-center h-full text-center p-8 md:p-24">
+                            <h1 class="text-5xl font-extrabold mb-4">The Modern Middle East Genomics Project</h1>
+                            <p class="text-2xl">
+                                Emory University, Department of Anthropology
+                            </p>
+
+                            <!--Learn more button-->
+                            <a href="#overview" class = "px-8 py-4 rounded-full bg-blue-950 hover:bg-sky-950 active:scale-95 text-white text-base font-semibold">
+                                Learn More
+                            </a>
+
+                        </div>
+
+                </div>
+
+            <!--Overview-->
+            <div id="overview" class = "flex-grow flex justify-center flex-col md:flex-row bg-slate-200">
+                <!--Left Box with personal image and headlines-->
+                <div class="w-full md:w-1/2 flex flex-col items-center justify-center bg-slate-200">
+                    <!--containter with texts-->
+                    <div class = "flex flex-col gap-4 md:gap-6 xl:gap-8 justify-center p-14 text-left">
+                        <!--Text with name-->
+                        <h1 class = "text-3xl text-sky-950 font-bold">Project Overview & Goals</h1>
+                        <!--Divider-->
+                        <hr class = "border-2 border-sky-950 w-1/2 md:w-full">
+                        <!--Header Text-->
+                        <h2 class = "text-base text-sky-950 tracking-wider" style = "line-height: 2.1rem;">
+                           <b>Overview:</b><br>
+                            The Modern Middle East Genomics Project (MMEGP) is the largest genome-wide study of the Middle East to date. The study will collect saliva samples from eligible individuals (free of charge) which will then undergo <b>30x Whole-Genome Sequencing (WGS) </b>. This type of sequencing is <b>3,000x</b> more in-depth then services such as 23andme and Ancestry! Participants will periodically receive project updates and contribute to the genomic history of the Middle East. 
+                            <br><br>
+                            <b>Goals:</b><br>
+                            The goals of this project are to:<br>
+                            1. Gain a better historical understanding of the <b>underrepresented</b> inhabitants of the Middle East within the past <b>500 years</b> <br>
+                            2. Trace Historical and Recent <b>Migrations</b> in the region. <br>
+                            3. Examine ethno-religious <b>population structures</b> and <b>isolated communities</b> in the Modern Middle East
+                        </h2>
+                    </div>
+
+                    <!--Eligbility button-->
+                    <div class="w-full flex flex-col p-14">
+                        <a href="#eligibility" class = "px-8 py-4 rounded-full bg-blue-950 hover:bg-sky-950 active:scale-95 text-white text-sm font-semibold text-center">
+                            View Eligibility
+                        </a>
+                    </div>
+
+                </div>
+
+                <!--Right Box with images-->
+                <div class = "w-full md:w-1/2 hidden md:flex flex-col gap-8 items-center bg-slate-200 mt-24">
+                    <!--Load in images-->
+                    <img src="img/beirut_old.jpg" class="w-1/2 rounded-2xl border border-gray-300">
+                    <img src="img/iraq_old.jpg" class="w-1/2 rounded-2xl border border-gray-300">
+                    <img src="img/damascus_old.jpg" class="w-1/2 rounded-2xl border border-gray-300">
+
+                </div>
+            </div>
+
+            <div class="h-48 bg-slate-200"></div>
+
+            <!--Eligibility-->
+            <div id="eligibility" class = "flex-grow flex justify-center flex-col md:flex-row bg-slate-200">
+                <!--Left Box with personal image and headlines-->
+                <div class="w-full md:w-1/2 flex flex-col items-center justify-center bg-slate-200">
+                    <!--containter with texts-->
+                    <div class = "flex flex-col gap-4 md:gap-6 xl:gap-8 justify-center p-14 text-left">
+                        <!--Text with name-->
+                        <h1 class = "text-3xl text-sky-950 font-bold">Project Eligibility</h1>
+                        <!--Divider-->
+                        <hr class = "border-2 border-sky-950 w-1/2 md:w-full">
+                        <!--Header Text-->
+                        <h2 class = "text-base text-sky-950 tracking-wider" style = "line-height: 2.1rem;">
+                           <b>Basic Eligibility:</b><br>
+                            1. I am <b>18</b> years of age or older<br>
+                            2. I am able to understand and provide <b>informed consent</b><br>
+                            3. I am willing to provide a <b>saliva sample</b><br>                   
+                            <br>
+                            <b>Ancestral Eligibility:</b><br>
+                            I have parents, grandparents, and great-grandparents on <b>all sides</b> from one of the <b>following</b> regions/city:<br><br>
+                            1. <b>Lebanon (specific regions eligible)</b>
+                            <ul class="list-disc ml-8">
+                                <li>North Governorate  Bsharri/Zgharta, and other mountainous areas</li>
+                                <li>Baalbeck/Bekaa</li>
+                                <li>South Lebanon (Tyre, Sidon, Nabatieh, Tebnine and surrounding villages)</li>
+                                <li>Aley</li>
+                            </ul>
+                            <br>
+                            2. <b>Syria (specific regions eligible)</b>
+                            <ul class="list-disc ml-8">
+                                <li>Damascus</li>
+                                <li>Aleppo</li>
+                                <li>Latakia</li>
+                                <li>Maaloula</li>
+                                <li>Deir ez-Zor</li>
+                            </ul>
+                            <br>
+                            3. <b>Iraq (all regions eligible)</b>
+                        </h2>                        
+                    </div>
+
+                    <!--Eligbility button-->
+                    <div class="w-full flex flex-col p-14">
+                        <a href="#" target="_blank" class = "px-8 py-4 rounded-full bg-blue-950 hover:bg-sky-950 active:scale-95 text-white text-sm font-semibold text-center">
+                            Fill Out the Interest Form
+                        </a><br>
+                        <a href="#" target="_blank" target="_blank" class = "px-8 py-4 rounded-full bg-slate-300 hover:bg-slate-400 active:scale-95 text-blue-950 text-sm font-semibold text-center">
+                            View Full Project
+                        </a><br>
+                        <p class="text-base text-blue-950">*This project has been approved by the Institutional Review Board (IRB) of Emory University</p>
+                    </div>
+
+                </div>
+
+                <!--Right Box with images-->
+                <div class = "w-full md:w-1/2 hidden md:flex flex-col gap-8 items-center bg-slate-200 mt-24">
+                    <!--Load in images-->
+                    <img src="img/Lebanese_immigrants_Nova_Friburgo.jpg" class="w-1/2 rounded-2xl border border-gray-300">
+                    <img src="img/syrians_boston.png" class="w-1/2 rounded-2xl border border-gray-300">
+
+                </div>
+            </div>
+
+            <div class="h-48 bg-slate-200"></div>
+
+            <!--Leadership/contact box-->
+            <div class = "flex-grow flex items-start flex-col md:flex-row bg-slate-200">
+                <!--Left Box with personal image and headlines-->
+                <div class="w-full md:w-1/2 flex flex-col items-center justify-center bg-slate-200">
+                    <!--containter with texts-->
+                    <div class = "flex flex-col gap-4 md:gap-6 xl:gap-8 justify-center p-14 text-left">
+                        <!--Text with name-->
+                        <h1 class = "text-3xl text-sky-950 font-bold">Leadership and Contact Information</h1>
+                        <!--Divider-->
+                        <hr class = "border-2 border-sky-950 w-1/2 md:w-full">
+                        <!--Header Text-->
+                        <h2 class = "text-base text-sky-950 tracking-wider" style = "line-height: 2.1rem;">
+                            <b>Leadership:</b> Ali Kesserwani (PhD student at Emory University)<br>
+                            <b>Email:</b> ali.kesserwani@emory.edu<br>
+                            <b>Phone:</b> 334-797-1120<br>
+                    </div>
+
+                </div>
+
+                <!--Right Box with images-->
+                <div class = "w-full md:w-1/2 flex flex-col gap-8 items-center justify-center bg-slate-200 mt-24">
+                    <!--Load in images-->
+                    <img src="img/1756590747413 copy.jpg" class="w-1/2 rounded-2xl border border-gray-300">
+                    <a target="_blank" href="https://anthropology.emory.edu/people/grad_bios/kesserwani_ali.html" class = "px-8 py-4 rounded-full bg-blue-950 hover:bg-sky-950 active:scale-95 text-white text-sm font-semibold">
+                        Learn More About Ali
+                    </a><br>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class = "h-[5vh] bg-slate-200"></div>
+        </main>
+        
+        <!--footer-->
+        <div class = "relative bottom-0 left-0 w-full h-1/4 z-50 bg-sky-950 flex flex-col gap-2 align-middle items-center justify-center py-10">
+            <p class = "text-xs md:text-sm text-white text-center">Copyrights © 2026 All Rights Reserved - Modern Middle Eastern Genomics Project (MMEGP)</p>
+        </div>
+        
+    </body>
+
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+      }
+    </style>
+
+
+</html>
